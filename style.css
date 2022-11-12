@@ -10,10 +10,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
+/* header {
   width: 100%;
   height: 88px;
-}
+} */
 
 .wrapper {
   margin: 0 auto;
@@ -22,7 +22,7 @@ header {
   max-width: 1250px;
 }
 
-.nav1 {
+.top-header {
   background: #eff0f7;
   display: flex;
   gap: 28px;
@@ -39,8 +39,15 @@ header {
   text-decoration: none;
 }
 
-.log-reg {
-  margin-left: auto;
+.bottom-header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
 }
 
 .menu {
@@ -67,19 +74,19 @@ header {
   background-repeat: no-repeat;
 }
 
-.nav2 {
-  margin-top: 22px;
-  margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  margin-bottom: 30px;
-}
 .logo-link {
   margin-right: 48px;
 }
-
-/* .search,
+.search-bucket {
+  margin-left: auto;
+}
+.search {
+  margin-right: 30px;
+}
+.search-bucket {
+  display: flex;
+}
+.search,
 .bag {
   height: 18px;
   width: 19px;
@@ -92,16 +99,10 @@ header {
 }
 
 .bag {
-  background-image: url(./img/header/search-icon.png);
-} */
-.search-bucket {
-  margin-left: auto;
-}
-.search {
-  margin-right: 30px;
+  background-image: url(./img/header/bag-icon.png);
 }
 
-.air-jordan .wrapper {
+.promo .wrapper {
   width: 1248px;
   height: 476px;
   background: #f6f6f6;
